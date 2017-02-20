@@ -1,0 +1,194 @@
+
+body, html {
+	background:url(../images/jb_bg.png)repeat center bottom;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    width:100%;
+    height: 800px;
+}
+#header {
+background: url(../images/jbs2.jpg)no-repeat top;
+width: 960px;
+height: 260px;
+
+}
+/*Nav Menu*/
+#nav {
+    margin:auto; 
+
+}
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+    }
+nav ul {
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+}
+nav ul:after {
+    clear: both; 
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+nav ul li:hover a {
+    color: #666;
+}
+nav ul li a {
+    display: block; 
+    padding: 37px;
+    color: #341d15; 
+    text-decoration: none;
+    list-style: none;
+}
+nav ul ul {
+    background: #5f6975; 
+    border-radius: 0px; 
+    padding: 0;
+    position: absolute; 
+    top: 100%;
+}
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a; 
+    position: relative;
+}
+nav ul ul li a {
+    padding: 5px;
+    color: #555;
+}   
+nav ul ul li a:hover {
+    background: #4b545f;
+  /* content */
+}
+#text{
+  overflow:none;
+  height:auto;
+  text-decoration:none;
+   margin:100px;
+   text-align:left;
+}
+#text h1{
+  font-size:25px;
+  color:#341d15;
+}
+#text h2{
+    font-size:20px;
+     color:#341d15;
+}
+#text p{
+    font-size:15px;
+     color:#341d15;
+}
+#text a:hover{
+   color:#888;
+}
+#text a:link {
+  color:#777;
+}
+#text a:visited {
+color:#666;
+}
+#text a:active{
+color:#555;
+}
+
+#text2{
+  overflow:none;
+  height:auto;
+  text-decoration:none;
+   margin:100px;
+   text-align:center;
+}
+#text2 h1{
+  font-size:25px;
+  color:#341d15;
+}
+#text2 h2{
+    font-size:20px;
+     color:#341d15;
+}
+#text2 p{
+    font-size:15px;
+     color:#341d15;
+}
+#text2 a:hover{
+   color:#888;
+}
+#text2 a:link {
+  color:#777;
+}
+#text2 a:visited {
+color:#666;
+}
+#text2 a:active{
+color:#555;
+}
+  /*content end*/
+
+
+#jonathan{
+   background: url(../images/jb_face.png)no-repeat top center; 
+   width:254px;
+   height:255px;
+   margin-top:-80px;
+  }
+/* products */
+#eufora{
+   background: url(../images/eufora_big.png)no-repeat top left; 
+   width:450px;
+   height:150px;
+  float:left;
+  margin-left:75px;
+  margin-top:-50px;
+}
+#kemon{
+   background: url(../images/kemon_big.png)no-repeat bottom right; 
+   width:450px;
+   height:150px;
+   float:left;
+   margin-left:50px;
+    margin-top:-50px;
+
+
+/* products */
+}
+#eufora2{
+   background: url(../images/eufora.png)no-repeat top left; 
+   width:200px;
+   height:65px;
+   margin-bottom:20px;
+
+
+}
+#tubes{
+   background: url(../images/tubes.png)no-repeat top left; 
+   width:192px;
+   height:192px;
+   margin-bottom:20px;
+}
+#nay{
+   background: url(../images/nay.png)no-repeat bottom left; 
+   width:450px;
+   height:192px;
+   margin-bottom:20px;
+
+}
+#coloring{
+   background: url(../images/coloring.png)no-repeat bottom center; 
+   width:267px;
+   height:192px;
+   margin-bottom:20px;
+   display:block;
+}
+
+
